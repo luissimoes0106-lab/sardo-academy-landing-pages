@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b0c">
+<meta name="description" content="Landing page demonstrativa da Sardo Academy">
+<title>Sardo Academy | Inscrição demonstrativa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#090b0c;--gold:#d6b476;--text:#f9f7f1;--muted:#abb0ac;--line:#303738}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 20%,#3a2b142e,transparent 55%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.container{max-width:1200px;margin:auto;padding:0 28px}
+header{border-bottom:1px solid #222829}header .container{height:80px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font:800 20px "Manrope",sans-serif;letter-spacing:.1em}.logo span{color:var(--gold)}.note{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}.demo{font-size:11px;color:#edcc8c;border:1px solid #6e5937;border-radius:100px;padding:8px 12px;white-space:nowrap}
+main{padding:75px 0 90px}.layout{display:grid;grid-template-columns:1.05fr .95fr;gap:7%;align-items:center}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.19em;font-weight:800;text-transform:uppercase}
+h1{font:800 clamp(40px,4.6vw,70px)/1.13 "Manrope",sans-serif;letter-spacing:-.055em;margin:22px 0}h1 em{font-style:normal;color:var(--gold)}.lead{font-size:18px;line-height:1.8;color:#b9bfbb;max-width:530px}
+.benefits{display:grid;gap:18px;margin-top:36px}.benefit{display:flex;gap:13px;align-items:flex-start;color:#e1e3e0;font-size:14px}.check{border:1px solid #7b653d;color:var(--gold);width:25px;height:25px;flex:none;border-radius:50%;text-align:center;line-height:22px}
+.signature{margin-top:55px;padding-top:23px;border-top:1px solid var(--line);color:#c5c7c2;font-size:13px}.signature strong{display:block;color:#fff;font-size:15px}
+.card{background:linear-gradient(140deg,#181c1c,#111415);border:1px solid #3a3b35;box-shadow:0 25px 80px #0007;padding:36px;border-radius:24px}
+h2{font:800 29px "Manrope",sans-serif;letter-spacing:-.04em;margin:13px 0 8px}.sub{font-size:14px;color:var(--muted);margin:0 0 25px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:8px;min-width:0}.wide{grid-column:1/-1}
+label{font-size:12px;font-weight:700;color:#f0f0eb}.req{color:var(--gold)}
+input:not([type=checkbox]),select{width:100%;min-height:49px;padding:0 13px;border:1px solid #374041;background:#1c2222;border-radius:10px;color:#fff;outline:none;font:14px "DM Sans",sans-serif}
+input::placeholder{color:#79827d}select{cursor:pointer}select option{background:#1c2222}input:focus,select:focus{border-color:var(--gold);box-shadow:0 0 0 3px #d6b47622}select:disabled{opacity:.55;cursor:not-allowed}
+.consent{display:flex;align-items:flex-start;gap:10px;margin:24px 0 17px}.consent input{flex:none;margin:3px 0 0;accent-color:#d6b476}.consent label{font-weight:400;line-height:1.6;color:#bdc1ba;font-size:11px}
+button{width:100%;min-height:54px;border:0;border-radius:10px;background:linear-gradient(120deg,#f3d49d,#c9a15e);color:#191810;font:800 13px "Manrope",sans-serif;cursor:pointer;letter-spacing:.04em}button:hover{filter:brightness(1.08)}button:focus-visible{outline:3px solid white;outline-offset:3px}
+.secure{font-size:11px;color:#8e9790;text-align:center;margin:14px 0 0}.feedback{display:none;margin-top:16px;padding:14px;border:1px solid #8c784d;border-radius:9px;background:#2c281b;color:#f7da9b;font-size:13px}.feedback.active{display:block}
+footer{border-top:1px solid #252b2a;padding:25px 0;font-size:12px;color:#8d9590}footer .container{display:flex;justify-content:space-between;gap:12px}
+@media(max-width:950px){main{padding:50px 0 75px}.layout{grid-template-columns:1fr;gap:40px}.signature{margin-top:34px}}
+@media(max-width:560px){.container{padding:0 17px}header .container{height:68px}.logo{font-size:15px}.note{display:none}.demo{font-size:10px}h1{font-size:41px}.lead{font-size:15px}.card{padding:23px 18px;border-radius:18px}.fields{grid-template-columns:1fr}.wide{grid-column:auto}footer .container{flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="container"><a href="#" class="logo">SARDO <span>ACADEMY</span></a><span class="note">Educação para quem empreende</span><span class="demo">● VERSÃO DEMO</span></div></header>
+<main><div class="container layout">
+<section aria-labelledby="headline">
+<div class="eyebrow">Sardo Academy • Próximos lançamentos</div>
+<h1 id="headline">Seu negócio pode ir <em>muito mais longe.</em></h1>
+<p class="lead">O próximo passo para evoluir sua gestão começa com uma decisão. Cadastre-se para conhecer nossas próximas experiências, aulas e conteúdos exclusivos para empreendedores.</p>
+<div class="benefits"><div class="benefit"><span class="check">✓</span>Estratégias práticas para o dia a dia do seu negócio</div><div class="benefit"><span class="check">✓</span>Conteúdos sobre gestão, vendas e lucratividade</div><div class="benefit"><span class="check">✓</span>Uma jornada pensada para quem quer crescer com clareza</div></div>
+<div class="signature"><strong>Transforme conhecimento em resultado.</strong>Uma iniciativa da Sardo Academy.</div>
+</section>
+<section class="card" aria-labelledby="form-title">
+<div class="eyebrow">Inscrição demonstrativa</div><h2 id="form-title">Dê o primeiro passo.</h2><p class="sub">Preencha os campos para experimentar nossa página de inscrição.</p>
+<form id="form">
+<div class="fields">
+<div class="field wide"><label for="nome">Nome completo <span class="req">*</span></label><input id="nome" name="nome_completo" autocomplete="name" required minlength="3" maxlength="120" placeholder="Digite seu nome completo"></div>
+<div class="field"><label for="telefone">WhatsApp com DDD <span class="req">*</span></label><input id="telefone" name="whatsapp" type="tel" autocomplete="tel" inputmode="numeric" maxlength="16" required placeholder="(00) 00000-0000"></div>
+<div class="field"><label for="email">E-mail <span class="req">*</span></label><input id="email" name="email" type="email" autocomplete="email" maxlength="160" required placeholder="voce@exemplo.com"></div>
+<div class="field wide"><label for="tipo">Tipo de negócio <span class="req">*</span></label><select id="tipo" name="tipo_negocio" required><option value="" selected disabled>Selecione seu tipo de negócio</option><option>Restaurante</option><option>Pizzaria</option><option>Hamburgueria</option><option>Delivery</option><option>Bar ou cafeteria</option><option>Outro</option></select></div>
+<div class="field wide"><label for="dor">Qual sua maior dor? <span class="req">*</span></label><select id="dor" name="maior_dor" required><option value="" selected disabled>Selecione sua principal dificuldade</option><option>Margem de lucro baixa</option><option>Faturamento estagnado</option><option>Vendas baixas</option><option>Dependência do iFood</option><option>Gestão de pessoas</option><option>Outro</option></select></div>
+<div class="field"><label for="estado">Estado <span class="req">*</span></label><select id="estado" name="estado" required><option value="" selected disabled>Selecione o estado</option></select></div>
+<div class="field"><label for="cidade">Cidade <span class="req">*</span></label><select id="cidade" name="cidade" required disabled><option value="" selected disabled>Selecione um estado</option></select></div>
+</div>
+<div class="consent"><input id="aceite" type="checkbox" required><label for="aceite">Concordo em testar este formulário demonstrativo. Nenhum dado será enviado para a Sardo Academy, CRM ou automações.</label></div>
+<button type="submit">TESTAR MINHA INSCRIÇÃO →</button><p class="secure">◈ Demonstração sem envio de leads</p><div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+</form></section></div></main>
+<footer><div class="container"><span>© 2026 SARDO ACADEMY • Página demonstrativa.</span><span>Sem captura real de dados</span></div></footer>
+<script>
+const estados=[["AC","Acre"],["AL","Alagoas"],["AP","Amapá"],["AM","Amazonas"],["BA","Bahia"],["CE","Ceará"],["DF","Distrito Federal"],["ES","Espírito Santo"],["GO","Goiás"],["MA","Maranhão"],["MT","Mato Grosso"],["MS","Mato Grosso do Sul"],["MG","Minas Gerais"],["PA","Pará"],["PB","Paraíba"],["PR","Paraná"],["PE","Pernambuco"],["PI","Piauí"],["RJ","Rio de Janeiro"],["RN","Rio Grande do Norte"],["RS","Rio Grande do Sul"],["RO","Rondônia"],["RR","Roraima"],["SC","Santa Catarina"],["SP","São Paulo"],["SE","Sergipe"],["TO","Tocantins"]];
+const uf=document.getElementById("estado"),cidade=document.getElementById("cidade"),tel=document.getElementById("telefone"),nome=document.getElementById("nome"),form=document.getElementById("form"),feedback=document.getElementById("feedback");
+estados.sort((a,b)=>a[1].localeCompare(b[1],"pt-BR")).forEach(([code,name])=>uf.add(new Option(name,code)));
+let requestId=0;
+uf.addEventListener("change",async()=>{
+ const id=++requestId;
+ cidade.replaceChildren(new Option("Carregando cidades...",""));cidade.disabled=true;
+ try{
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),10000);let response;
+  try{response=await fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados/"+encodeURIComponent(uf.value)+"/municipios?orderBy=nome",{signal:controller.signal})}finally{clearTimeout(timeout)}
+  if(!response.ok)throw Error("API indisponível");const municipalities=await response.json();if(id!==requestId)return;
+  cidade.replaceChildren(new Option("Selecione sua cidade",""));municipalities.forEach(item=>cidade.add(new Option(item.nome,item.nome)));cidade.disabled=false;
+ }catch(error){if(id!==requestId)return;cidade.replaceChildren(new Option("Erro ao carregar cidades — selecione novamente",""));cidade.disabled=true}
+});
+tel.addEventListener("input",()=>{tel.setCustomValidity("");const digits=tel.value.replace(/\D/g,"").slice(0,11);tel.value=digits.length>7?"("+digits.slice(0,2)+") "+digits.slice(2,7)+"-"+digits.slice(7):digits.length>2?"("+digits.slice(0,2)+") "+digits.slice(2):digits});
+nome.addEventListener("input",()=>nome.setCustomValidity(""));
+form.addEventListener("submit",event=>{
+ event.preventDefault();nome.setCustomValidity("");tel.setCustomValidity("");
+ if(nome.value.trim().split(/\s+/).length<2){nome.setCustomValidity("Informe nome e sobrenome.");nome.reportValidity();return}
+ if(![10,11].includes(tel.value.replace(/\D/g,"").length)){tel.setCustomValidity("Informe WhatsApp com DDD.");tel.reportValidity();return}
+ if(!form.reportValidity())return;
+ feedback.textContent="Teste concluído! Os campos foram validados. Nenhum dado foi enviado ou armazenado.";feedback.classList.add("active");feedback.scrollIntoView({behavior:"smooth",block:"nearest"});
+});
+</script>
+</body></html>
